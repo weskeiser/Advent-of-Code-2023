@@ -1,0 +1,69 @@
+------------------------------------------------
+Input
+------------------------------------------------------
+ seeds: [SEED NUMBERS]
+
+ title: [FROM]-[TO]
+
+ values: [TO] [FROM] [LENGTH]
+
+
+------------------------------------------------------
+Objective
+------------------------------------------------------
+ - Convert each seed number through other categories
+   until soil number is found
+
+
+------------------------------------------------------
+Result
+------------------------------------------------------
+    LOWEST LOCATION NUMBER
+   corresponding to any of
+ the INITIAL SEEDS
+
+
+
+
+
+
+
+
+----------------------------------------------------
+Notes
+----------------------------------------------------
+
+!----------------------------------------------!
+! Numbers are reused by each category          !
+!----------------------------------------------!
+!                                              !
+!----------------------------------------------!
+! Source number not mapped?:                   !
+! Source nr corresponds to same destination nr !
+!----------------------------------------------!
+
+  IS in range
+Destination is source destination
+
+  NOT in range
+Source is in destination
+
+
+
+    seed           soil       len
+
+
+     50     |    98
+            2
+     -> 51  |   -> 99
+
+|--------------|-------------|------|
+
+     52     |   50        | 48
+     -> 99  |   -> 97
+
+
+
+
+soil 98 <-> seed 50
+soil 99 <-> seed 51
